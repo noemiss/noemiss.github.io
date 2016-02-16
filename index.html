@@ -1,29 +1,84 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="stylesheets/main.css" />
-        <title>CSS Exercises 1</title>
-    </head>
-    <body>
-        <h1>Make me red!</h1>
+<head>
+  <link href = 'dist/css/bootstrap.css' rel = 'stylesheet'>
+  <link href = 'main.css' rel='stylesheet'>
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+  <title>Sam's Sarnies</title>
 
-        <p>I am a paragraph I should be blue, Helvetica, size 16px.</p>
+</head>
 
-        <ul>
-            <li class="ulist">This is an unordered list.</li>
-            <li class="ulist">All items in this list should have a yellow background.</li>
-            <li class="ulist">Just the items though - not the whole list!</li>
-        </ul>
+<body>
+  <nav class='navbar-fixed-top'>
+    <button type='search' class='pull-right'> Search </button>
+    <input class='pull-right' type='search' placeholder='Search...'>
+  </nav> 
+  
+  <div class='jumbotron'>
+    <div class="container">
+    <div class='row'>
+      <div class='col-sm-8'>
+        <h1>Healthy sandwiches for your team</h1>
+      </div>
+      <div class='col-sm-4'>
+        <img class='img-responsive' src='images/sandwich.png'>
+      </div>
+    </div>
 
-        <h2>Make me green on an orange background</h2>
+    <form role='form'>
+      <label for="email">Find out more</label>
+      <input type="text" name="email" >
+      <button type="submit" class='btn btn-success'> Send</button>
+    </form>
+  </div>
+  <div id="buzz">
+    <div class='container'>
+    <h2><small>The Buzz</small><br />What are people saying?</h2>
+    <div class='row'>
+    <div class='col-sm-4'>
+      <img src='images/person.jpg' class='img-circle center-block'>
+      <blockquote>
+      <p>These sandwiches are the best I've ever tasted, for sure. I now eat them every day - breakfast, lunch and dinner.</p>
+      </blockquote>
+      <small>Mr Smith, Professional sandwich taster</small>
+    </div>
+ 
+    <div class='col-sm-4'>
+      <img src='images/person.jpg' class='img-circle center-block'>
+      <blockquote>
+      <p>My team are always far more productive after we order from Sam's. 40% more productive, in fact.</p>
+      </blockquote>
+      <small>Miss McAdam, CEO Workplace Analytics</small>
+    </div>
+    <div class='col-sm-4'>
+      <img src='images/person.jpg' class='img-circle center-block'>
+      <blockquote>
+      <p>We switched to Sam's Sarnies and won our first government contract the next day. Coincidence? I think not!</p>
+      </blockquote>
+    </div> 
+  </div>
+   </div>
 
-        <p>I am a paragraph I should be blue, Helvetica, size 16px.</p>
+  <div id="mission">
+    <div class='container'>
+    <h2><small>Our mission</small><br />Join us in helping busy professionals eat healthily</h2>
 
-        <ol>
-            <li class="olist">This is an ordered list.</li>
-            <li class="olist">All items in this list should have a teal background.</li>
-            <li class="olist">Just the items thought - not the whole list!</li>
-        </ol>
+    <p class='lead'>We believe that healthy workers are more productive workers.</p>
+    <p class='lead'>Providing your team with a healthy lunch each day improves both motivation and morale.</p>
+    <p class='lead'>We deliver healthy sandwiches, made with the best ingredients, to your workplace every day.</p>
+    <div id='social-buttons'>
 
-    </body>
+
+
+      <button class='btn-twitter btn btn-lg'>Twitter</button>
+      <button class='btn btn-lg btn-facebook' >Facebook</button>
+      <button class='btn btn-lg btn-pinterest' >Pinterest</button>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+
+
+<!-- Sandwich from: © Kosoff | <a href="http://www.dreamstime.com/">Dreamstime Stock Photos</a> & <a href="http://www.stockfreeimages.com/">Stock Free Images</a> -->
 </html>
