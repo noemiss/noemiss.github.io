@@ -25,11 +25,12 @@ body {
 	list-style-type: none;
 	display: inline-block;
 	margin: 0;
+	padding: 0;
 }
 #top_menu ul li {
 	display: inline-block;
 	float:right;
-	width:8em;
+	width:97px;
 	height:2em;
 }
 #top_menu ul li a{
@@ -82,8 +83,7 @@ background-color: white;
 	list-style:none
 }
 ul.nav {
-	width:94.4%;
-	padding-left:75px;
+	width:100%;
 }
 #main_menu .dropdown_content a {
 	background-color: white;
@@ -91,7 +91,7 @@ ul.nav {
 .dropdown_content {
 	display:none;
 	position: relative;
-	width:165.5px;
+	width:123px;
 	min-height: 50px;
 	background-color: white;
 }
