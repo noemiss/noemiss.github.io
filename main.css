@@ -96,6 +96,23 @@ ul.nav {
 	margin-top:10px;
 	margin-bottom: 10px;
 	height: 500px;
-	background-color: rgba(0,229,204,0.8);
+	background-color: rgba(255,229,204,0.8);
 	position:relative;
+}
+#socials {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left:10px;
+}
+#socials ul {
+	list-style: none;
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+}
+#socials ul li a {
+	opacity:0.5;
+}
+#socials ul li a:hover {
+	opacity:1;
 }
