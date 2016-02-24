@@ -1,24 +1,50 @@
-#mainbg {
+.jumbotron {
 	min-height: 1000px;
 	background-image: url('images/firstimage1.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 }
-.container {
-}
-#top_menu button{
+
+#top_menu a{
+	text-decoration: none;
+	text-align: center;
+	color:black;
 	width: 100px;
 	background-color: rgba(255,229,204,0.5);
 }
-#top_menu button:hover{
+#top_menu a:hover{
 	background-color: rgba(255,250,250,0.5);
 }
-nav#top_menu {
-	height:34px;
-	width: cover;
-	background-color: rgba(255,229,204,0.5);
+#top_menu .container{
+	background-color: rgba(0,255,255,0.9);
 }
 #title .container {
 	height: 200px;
-	background-color: black;
+	background-color: rgba(0,0,255,0.9);
 }
+#main_menu .container{
+	background-color: rgba(0,255,255,0.9);
+}
+#main_menu a{
+	text-decoration: none;
+	text-align: center;
+	color:black;
+	width: 228px;
+	background-color: rgba(255,229,204,0.8);
+}
+#main_menu a:hover{
+	background-color: rgba(255,250,250,0.8);
+}
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.dropdown_content {
+	display:none;
+	position: absolute;
+
+}
+.dropdown:hover .dropdown_content{
+	display: block;
+}
+;
