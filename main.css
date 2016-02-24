@@ -47,4 +47,14 @@ body {
 .dropdown:hover .dropdown_content{
 	display: block;
 }
-;
+#main_page .container{
+	background-color: rgba(255,229,204,0.8);
+}
+#mainpg  {
+	height: 300px;
+	background-color: rgba(255,255,255,0.8);
+}
+#right_menu  {
+	height: 300px;
+	background-color: rgba(0,229,204,0.8);
+}
