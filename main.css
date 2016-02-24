@@ -10,51 +10,62 @@ body {
 	text-align: center;
 	color:black;
 	width: 100px;
-	background-color: rgba(255,229,204,0.5);
+	background-color: rgba(255,229,204,0.8);
 }
 #top_menu a:hover{
 	background-color: rgba(255,250,250,0.5);
 }
 #top_menu .container{
-	background-color: rgba(0,255,255,0.9);
+	background-color: rgba(128, 128, 128, 0.8);
 }
 #title .container {
 	height: 200px;
-	background-color: rgba(0,0,255,0.9);
+	background-color: rgba(255,255,255,0.8);
 }
 #main_menu .container{
-	background-color: rgba(0,255,255,0.9);
+	background-color: rgba(128, 128, 128, 0.8);;
+	max-height:50px;
 }
 #main_menu a{
 	text-decoration: none;
 	text-align: center;
 	color:black;
 	width: 228px;
-	background-color: rgba(255,229,204,0.8);
+	background-color:rgba(255,229,204,1);
 }
 #main_menu a:hover{
 	background-color: rgba(255,250,250,0.8);
 }
-.dropdown {
-	position: relative;
-	display: inline-block;
+#main_menu li ul{
+position: absolute;
+z-index: 100;
+background-color: white;
 }
+
 .dropdown_content {
 	display:none;
-	position: absolute;
-
+	position: relative;
+	width:229px;
+	background-color: white;
 }
 .dropdown:hover .dropdown_content{
 	display: block;
+	background-color: white;
 }
+.doptdown_content li:hover .dropdown {
+	background-color: rgba(255,250,250,0.8);
+}
+
 #main_page .container{
 	background-color: rgba(255,229,204,0.8);
 }
 #mainpg  {
 	height: 300px;
 	background-color: rgba(255,255,255,0.8);
+	position:relative;
 }
 #right_menu  {
 	height: 300px;
 	background-color: rgba(0,229,204,0.8);
+	position:relative;
 }
