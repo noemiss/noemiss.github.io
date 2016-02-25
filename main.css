@@ -4,49 +4,11 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 }
-#top_menu {
-	position: relative;
-	width:100%;
-	text-align:center;
-}
-#top_menu .container{
-	width:100%;
-	height:2em;
-	min-width: 90%;
-	background-color: rgba(255,229,204,0.8);
-}
-#top_menu ul {
-	float:right;
-	margin: 0;
-	padding: 0;
-	top:2em;
-	height:100%;
-}
-#top_menu ul li {
-	display: inline-block;
-	width:8em;
-	max-width: 23.5%;
-	height: 100%;
-
-}
-#top_menu ul li a{
-	display: inline-block;
-	text-decoration: none;
-	text-align: center;
-	color:black;
-	width:100%;
-	height: 100%;
-	background-color: rgba(255,229,204,0.8);
-}
-#top_menu a:hover{
-	background-color: rgba(255,250,250,0.5);
-}
-
 
 #title .container {
-	height: 200px;
+	height: 300px;
 	width: 100%;
-	background-color: rgba(255,255,255,0.8);
+	background-color: white;
 }
 
 #main_menu {
@@ -55,7 +17,7 @@ body {
 	text-align:center;
 	}
 #main_menu .container{
-	background-color: rgba(0,0,0,0.5);
+	background-color: black;
 	min-height:3em;
 	width: 100%;
 	padding-right: 7%;
@@ -87,18 +49,34 @@ height: 1em;
 }
 #main_menu a{
 	display: inline-block;
-	vertical-align: baseline;
 	text-decoration: none;
 	text-align: center;
-	color:white;
+	color:rgba(255,255,255,0.5);
 	width:100%;
 	height: 100%;
 	background-color:rgba(0,0,0,0.5);
+	margin-top:1em;
 }
 #main_menu a:hover{
-	background-color: rgba(255,250,250,0.8);
+	color:white;
+	
 }
-
+hr {
+ height: .25rem;
+  width: 20%;
+  margin: 0;
+  background: white;
+  border: none;
+  transition: .3s ease-in-out;
+  }
+.menu2:hover  ~ hr {
+margin-left:20%; }
+.menu3:hover ~ hr {
+margin-left:40%; }
+.menu4:hover ~ hr {
+margin-left:60%; }
+.menu5:hover ~ hr {
+margin-left:80%; }
 ul.dropdown_content {
 	display:none;
 	z-index:100;
