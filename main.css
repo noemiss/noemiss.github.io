@@ -102,6 +102,7 @@ ul.dropdown_content li {
 background-color:rgba(255,229,204,0.8);
 color:black;
 padding-bottom:3em;
+height:500px;
 }
 
 
@@ -134,11 +135,6 @@ padding-bottom:3em;
 .sticky {
 	position: fixed;
 	top:0;
-}
-#wrapper {
-	min-height:100%;
-	position:relative;
-	margin:0 -3em;
 }
 	
 #footer {
