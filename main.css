@@ -1,5 +1,5 @@
 body {
-	min-height: 2000px;
+	height:100%;
 	background-image: url('images/firstimage1.jpg');
 	background-size: cover;
 	background-attachment: fixed;
@@ -98,21 +98,11 @@ ul.dropdown_content li {
 	background-color: white;
 }
 
-
-
-#main_page .container{
-	margin-top: 20px;
-	background-color: rgba(255,229,204,0.8);
+#main_container {
+background-color:rgba(255,229,204,0.8);
+color:black;
+padding-bottom:3em;
 }
-#mainpg  {
-	margin-top:10px;
-	margin-bottom: 10px;
-	height: 500px;
-	background-color: rgba(255,255,255,0.8);
-	position:relative;
-}
-
-
 
 
 #right_menu  {
@@ -123,9 +113,8 @@ ul.dropdown_content li {
 	position:relative;
 }
 #socials {
-	padding-top: 30px;
-	padding-bottom: 10px;
-	padding-left:20px;
+	margin-bottom:1em;
+	margin-left:40%;
 }
 #socials ul {
 	list-style: none;
@@ -145,4 +134,21 @@ ul.dropdown_content li {
 .sticky {
 	position: fixed;
 	top:0;
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+	margin:0 -3em;
+}
+	
+#footer {
+	position:relative;
+	bottom:0;
+	width:100%;
+}
+#footer .container {
+	width:100%;
+	bottom:0;
+	height:3em;
+	background-color:black;
 }
