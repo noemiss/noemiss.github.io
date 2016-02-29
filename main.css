@@ -9,9 +9,7 @@ body {
   }
     
 #myCarousel {
-    z-index: -100;
     margin-left: 75%;
-
 }
 #myCarousel.vertical .item {
   transition: 0.6s ease-in-out top;
@@ -24,7 +22,7 @@ body {
 #main_menu {
   background-color: rgba(14,20,20,0.7);
   width: 100%;
-  height: 3em;
+  height: 5em;
 }
 }
 #main_menu a:hover{
