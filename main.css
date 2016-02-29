@@ -7,6 +7,12 @@ body {
   background-repeat: no-repeat;
   background-color: #FC9D9A;
   }
+  
+@font-face {
+    font-family:levenim;
+    src: url(levenimmt.ttf);
+}
+
     
 #myCarousel {
     margin-left: 75%;
