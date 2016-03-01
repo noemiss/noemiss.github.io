@@ -93,6 +93,26 @@ body {
   border: none;
   transition: .3s ease-in-out;
   }
+  .pag2 hr {
+  margin-top:10px;
+  height: .25rem;
+  max-width: 25%;
+  margin:0;
+  margin-left:25%;
+  background: white;
+  border: none;
+  transition: .3s ease-in-out;
+  }
+  .pag3 hr {
+  margin-top:10px;
+  height: .25rem;
+  max-width: 25%;
+  margin:0;
+  margin-left:50%;
+  background: white;
+  border: none;
+  transition: .3s ease-in-out;
+  }
 .pag4 hr {
   margin-top:10px;
   height: .25rem;
