@@ -84,7 +84,7 @@ body {
   
 }
 
-hr {
+.pag1 hr {
   margin-top:10px;
   height: .25rem;
   max-width: 25%;
@@ -93,9 +93,18 @@ hr {
   border: none;
   transition: .3s ease-in-out;
   }
-.menu-1:hover ~ hr {
-  margin-left:-25%;
+.pag4 hr {
+  margin-top:10px;
+  height: .25rem;
+  max-width: 25%;
+  margin:0;
+  margin-left:75%;
+  background: white;
+  border: none;
+  transition: .3s ease-in-out;
 }
+.menu1:hover ~ hr {
+  margin-left:0;}
 .menu2:hover  ~ hr {
 margin-left:25%; }
 .menu3:hover ~ hr {
