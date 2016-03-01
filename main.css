@@ -225,8 +225,8 @@ a#fashionbutton {
   box-shadow:4px 4px 5px 6px rgba(137,137,137,0.2);
 }
 .col-sm-3 img.us {
-  max-width:100%;
-  
+  max-width:10%;
+  max-height:10%;
 }
 
 
@@ -295,7 +295,7 @@ a#fashionbutton {
 }
 
 #footer .container-fluid {
-  height:7em;
+  height:6.5em;
   background-color: rgba(0,0,0,0.7);
   padding-top:2em;
   margin:0;
