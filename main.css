@@ -287,7 +287,14 @@ a#fashionbutton {
   height:105%;
 }
 
-#main_page .nav.navbar-inverse{
-  background-color: rgba(14,20,20,0.7);
+#footer .container-fluid {
+  height:10em;
+  background-color: rgba(0,0,0,0.7);
+  padding-top:2em;
+  margin:0;
+  width: 100%;
+}
+#footer .container-fluid p {
   color:white;
+  text-align:center;
 }
