@@ -83,7 +83,13 @@ body {
   color:white;
   
 }
-
+hr {
+  margin-top:10px;
+  height: .25rem;
+  margin:0;
+  background: white;
+  border: none;
+  }
 .pag1 hr {
   margin-top:10px;
   height: .25rem;
