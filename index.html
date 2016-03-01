@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8">
   <script src='effects/jquery.js'></script>
+  <script src='effects/jquery.sticky.js'></script>
   <link href = 'dist/css/bootstrap.css' rel = 'stylesheet'>
   <link href = 'main.css' rel='stylesheet'>
   <link rel="shortcut icon" href="favicon.png" type="image/png">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="dist/js/bootstrap.js"></script>
   <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
   <title>O.N. DiYs</title>
   <script>
--  $(document).ready(function(){
--    $("#main_menu").sticky({topSpacing:0});
--  });
--</script> 
+  $(document).ready(function(){
+    $("#main_menu").sticky({topSpacing:0});
+  });
+</script> 
 </head>
 <body>
 
@@ -23,19 +23,19 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="content/beauty DIYs/1.jpg" >
+      <img src="images/open.png" >
     </div>
 
     <div class="item">
-      <img src="content/beauty DIYs/1.jpg" >
+      <img src="images/closed.png" >
     </div>
 
     <div class="item">
-      <img src="content/beauty DIYs/2.jpg" >
+      <img src="images/open.png" >
     </div>
 
     <div class="item">
-      <img src="content/beauty DIYs/3.jpg" >
+      <img src="images/closed.png" >
     </div>
   </div>
 </div>
@@ -51,7 +51,9 @@
      </ul>
   </div>
 </nav>
+<div id='pagina'>
 
+</div>
 
 
 
