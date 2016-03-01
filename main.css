@@ -133,6 +133,7 @@ margin-left:75%; }
 }
 .row {
   margin-top:3%;
+  margin-right:5%;
 }
 
 @media (min-width: 768px) {
