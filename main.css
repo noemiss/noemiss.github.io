@@ -228,6 +228,9 @@ a#fashionbutton {
 #photo {
   margin-top:30px;
 }
+#faq {
+  text-align:right;
+}
 
 
 @media (min-width: 768px) {
