@@ -224,11 +224,9 @@ a#fashionbutton {
   -webkit-box-shadow:4px 4px 5px 6px rgba(137,137,137,0.5);
   box-shadow:4px 4px 5px 6px rgba(137,137,137,0.2);
 }
-#main_content .col-sm-1 {
-  background-color:white;
-}
+
 #main_content img.us {
-  margin-top:20%;
+  margin-top:8em;
 }
 
 
