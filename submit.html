@@ -14,7 +14,7 @@
     $("#main_menu").sticky({topSpacing:0});
   });
 </script> 
-  <title>O.N. DiYs</title>
+  <title>ON DIY</title>
   
 </head>
 <body>
@@ -44,16 +44,17 @@
 <nav id='main_menu' >
   <div class='container-fluid'>
     <ul>
-      <li><a href='#'> HOME </a></li><!--
+-     <li><a href='index.html'> HOME </a></li><!--
 +   --><li class='menu2'><a href='about.html'> ABOUT </a></li><!--
-+   --><li class='menu3'><a href='#'> CONTACT </a></li><!--
-+   --><li class='menu4'><a href='#'> SUBMIT! </a></li>
++   --><li class='menu3'><a href='contact.html'> CONTACT </a></li><!--
++   --><li class='menu4'><a href='submit.html'> SUBMIT! </a></li>
     <hr />
      </ul>
   </div>
 </nav>
 
 <div id='main_page'>
+  <div class="row">
     <div class="col-sm-2">
       <div class="sidebar-nav">
         <div class="navbar navbar-default" role="navigation">
@@ -69,26 +70,60 @@
           <div class="navbar-collapse collapse sidebar-navbar-collapse">
             <ul class="nav navbar-nav">
               <li class='active'><a href="#">Sort</a></li>
-              <li><a href="#">home</a></li>
-              <li><a href="#">beauty</a></li>
-              <li><a href="#">fashion</a></li>
-              <li class="divizator"><hr /></li>
-              <li><a href="#">by rating</a></li>
+              <li><a href="#">Menu Item 1</a></li>
+              <li><a href="#">Menu Item 2</a></li>
+              <li><a href="#">Dropdown</a>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
+    </div>
   </div>
 
-<div id='main_content'></div>
+ <div id='main_content'>
+  <div class='col-sm-9'>
+    <h1>submit a project</h1>
 
+    <form>
+      <label for="fname">first name</label>
+      <p><textarea rows='1' id='fname'></textarea></p>
+      
+      <label for="lname">last name</label>
+      <p><textarea rows='1' id="lname"></textarea></p>
+      
+      <label for="email">email address</label>
+      <p><textarea rows='1' id="email"></textarea></p>
+
+      <label for="pname">project name</label>
+      <p><textarea rows='1' id="pname"></textarea></p>
+
+      <label for="cat">category</label>
+        <select id="cat">
+          <option value="home">home</option>
+          <option value="beauty">beauty</option>
+          <option value="fashion">fashion</option>
+        </select>
+
+      <label for="url">website (optional)</label>
+      <p><textarea rows='1' id="url"></textarea></p>
+
+      <label for="project">project description</label>
+      <p><textarea id="project"></textarea></p>
+
+     
+  
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</div>
 <div class='col-sm-1'>
   <nav id='right_nav'>
     <ul>
-      <li><a href='http://www.facebook.com'><img src=images/socials/Facebook-icon1.png></a></li>
-      <li><a href='http://www.instagram.com'><img src=images/socials/Instagram-icon1.png></a></li>
-      <li><a href='http://www.pinterest.com'><img src=images/socials/Pinterest-icon1.png></a></li>
-      <li><a href='http://www.twitter.com'><img src=images/socials/Twitter-icon1.png></a></li>
+      <li><a href='http://www.facebook.com'><img src='images/socials/Facebook-icon1.png'></a></li>
+      <li><a href='http://www.instagram.com'><img src='images/socials/Instagram-icon1.png'></a></li>
+      <li><a href='http://www.pinterest.com'><img src='images/socials/Pinterest-icon1.png'></a></li>
+      <li><a href='http://www.twitter.com'><img src='images/socials/Twitter-icon1.png'></a></li>
     </ul>
   </nav>
-  </div>
+</div>
+</body>
