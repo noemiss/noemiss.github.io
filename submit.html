@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <script src='effects/jquery.js'></script>
+  <script src='effects/jquery.sticky.js'></script>
+  <link href = 'dist/css/bootstrap.css' rel = 'stylesheet' />
+  <link href = 'main.css' rel='stylesheet' />
+  <link rel="shortcut icon" href="favicon.png" type="image/png">
+  <script src="dist/js/bootstrap.js"></script>
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+  <script>
+  $(document).ready(function(){
+    $("#main_menu").sticky({topSpacing:0});
+  });
+</script> 
+  <title>O.N. DiYs</title>
+  
+</head>
+<body>
+
+
+<div id="myCarousel" class="carousel slide vertical" data-ride="carousel">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/open.png" >
+    </div>
+
+    <div class="item">
+      <img src="images/closed.png" >
+    </div>
+
+    <div class="item">
+      <img src="images/open.png" >
+    </div>
+
+    <div class="item">
+      <img src="images/closed.png" >
+    </div>
+  </div>
+</div>
+
+<nav id='main_menu' >
+  <div class='container-fluid'>
+    <ul>
+      <li><a href='#'> HOME </a></li><!--
++   --><li class='menu2'><a href='about.html'> ABOUT </a></li><!--
++   --><li class='menu3'><a href='#'> CONTACT </a></li><!--
++   --><li class='menu4'><a href='#'> SUBMIT! </a></li>
+    <hr />
+     </ul>
+  </div>
+</nav>
+
+<div id='main_page'>
+    <div class="col-sm-2">
+      <div class="sidebar-nav">
+        <div class="navbar navbar-default" role="navigation">
+          <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+            <span class="sr-only">Sort</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <span class="visible-xs navbar-brand"></span>
+          </div>
+          <div class="navbar-collapse collapse sidebar-navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class='active'><a href="#">Sort</a></li>
+              <li><a href="#">home</a></li>
+              <li><a href="#">beauty</a></li>
+              <li><a href="#">fashion</a></li>
+              <li class="divizator"><hr /></li>
+              <li><a href="#">by rating</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+  </div>
+
+<div id='main_content'></div>
+
+<div class='col-sm-1'>
+  <nav id='right_nav'>
+    <ul>
+      <li><a href='http://www.facebook.com'><img src=images/socials/Facebook-icon1.png></a></li>
+      <li><a href='http://www.instagram.com'><img src=images/socials/Instagram-icon1.png></a></li>
+      <li><a href='http://www.pinterest.com'><img src=images/socials/Pinterest-icon1.png></a></li>
+      <li><a href='http://www.twitter.com'><img src=images/socials/Twitter-icon1.png></a></li>
+    </ul>
+  </nav>
+  </div>
