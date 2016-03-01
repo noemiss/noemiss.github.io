@@ -266,6 +266,9 @@ a#fashionbutton {
 #faq {
   text-align:right;
 }
+#faq li {
+  list-style-position: inside;
+}
 
 
 @media (min-width: 768px) {
