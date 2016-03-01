@@ -9,6 +9,7 @@ body {
   font-family:levenim;
   }
 @font-face {
+     font-family:levenim;
      src: url(levenimmt.ttf);
  }
 #myCarousel {
