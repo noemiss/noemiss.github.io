@@ -11,27 +11,7 @@
  *
  * Date: 2016-02-22T19:11Z
  */
- $(document).ready(function() {
-var stickyNavTop = $('.scroller').offset().top;
  
-var stickyNav = function(){
-var scrollTop = $(window).scrollTop();
-      
-if (scrollTop > stickyNavTop) { 
-    $('.nav').addClass('sticky');
-} else {
-    $('.nav').removeClass('sticky'); 
-}
-};
- 
-stickyNav();
- 
-$(window).scroll(function() {
-    stickyNav();
-});
-});
-
-
 (function( global, factory ) {
 
 	if ( typeof module === "object" && typeof module.exports === "object" ) {
