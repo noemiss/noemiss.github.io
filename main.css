@@ -19,7 +19,6 @@ body {
     background-color: #FC9D9A;
     z-index: -100;
     padding-left: 75%;
-    interval: 200;
 
 }
 #myCarousel.vertical .item {
@@ -59,7 +58,7 @@ body {
   text-align:center;
   display: inline-block;
   width:20em;
-  max-width: 25%;
+  max-width: 24%;
   height: 3em;
 }
 
