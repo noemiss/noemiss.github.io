@@ -34,30 +34,30 @@ body {
   height: 3em;
 }
 #main_menu {
-  background-color:rgba(14,20,20,0.7);
   z-index:200;
   width:100%;
   text-align:center;
   }
-#main_menu.container-fluid{
-  background-color: rgba(14,20,20,0.7);
+#main_menu .container-fluid{
+  background-color:rgba(14,20,20,0.7);
   min-height:3em;
   width: 100%;
 }
 #main_menu ul {
-  width:100%;
-  min-height:3em;
   display: inline-block;
+  min-height:3em;
   padding: 0;
   margin:0;
   overflow: hidden;
 }
 #main_menu ul li {
+  padding: 0;
+  margin:0;
   position:relative;
   line-height:1em;
   text-align:center;
   display: inline-block;
-  width:18em;
+  width:20em;
   max-width: 25%;
   height: 3em;
 }
@@ -87,7 +87,7 @@ body {
 hr {
   margin-top:10px;
   height: .25rem;
-  width: 20%;
+  max-width: 25%;
   margin:0;
   background: white;
   border: none;
