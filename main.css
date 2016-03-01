@@ -266,9 +266,6 @@ a#fashionbutton {
 #faq {
   text-align:right;
 }
-#faq li {
-  list-style-position: inside;
-}
 
 
 @media (min-width: 768px) {
@@ -344,4 +341,25 @@ a#fashionbutton {
 #footer .container-fluid p {
   color:white;
   text-align:center;
+}
+
+#search {
+    width: 30px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-image:url('http://findicons.com/files/icons/1389/g5_system/32/toolbar_find.png');
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]#search:focus {
+    width: 100%;
+}
+div#leftmenu {
+  margin-top:-4.3%;
 }
